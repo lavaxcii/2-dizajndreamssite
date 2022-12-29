@@ -1,6 +1,6 @@
-## CV Application project (w. ReactJS)
+## Design dreams site project (w. ReactJS)
 
-# Live: https://lavaxcii.github.io/js-pro12-reactjs-memory-card-game/
+# Live: https://lavaxcii.github.io/2-dizajndreamssite/
 
 
 
