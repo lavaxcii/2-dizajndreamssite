@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/2-dizajndreamssite/static/css/main.bbf6743c.css",
+    "main.js": "/2-dizajndreamssite/static/js/main.c09e6da0.js",
+    "index.html": "/2-dizajndreamssite/index.html",
+    "main.bbf6743c.css.map": "/2-dizajndreamssite/static/css/main.bbf6743c.css.map",
+    "main.c09e6da0.js.map": "/2-dizajndreamssite/static/js/main.c09e6da0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbf6743c.css",
+    "static/js/main.c09e6da0.js"
+  ]
+}
