@@ -1,12 +1,12 @@
 import TopNavbarHeader from "../0-landingPage/TopNavbarHeader"
-import FirstPageMainContent from "./FirstPageMainContent"
+import SecondPageMainContent from "./SecondPageMainContent"
 
-function FirstPage(props) {
+function SecondPage(props) {
   return (
     <div>
       <TopNavbarHeader changeClickStatus={props.changeClickStatus} />
-      <FirstPageMainContent />
+      <SecondPageMainContent />
     </div>
   )
 }
-export default FirstPage
+export default SecondPage

@@ -3,7 +3,7 @@ body {
   justify-content: center;
   text-align: center;
   background-color: gray;
-  margin: 0;
+  margin: 1rem;
   font-size: 2.5rem;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -34,4 +34,9 @@ button {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+}
+
+.topNavbarHeader {
+  padding: 0.5rem;
+  border: 7px dashed red;
 }
