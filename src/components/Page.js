@@ -1,17 +1,17 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import TopNavbarHeader from './TopNavbarHeader';
-import MainContent from './LandingPageMainContent';
+import PageMainContent from './PageMainContent';
 import Footer from './Footer';
 // import '../styles/GlobalStyle.css';
 
-function LandingPage(props) {
+function Page(props) {
   
   return (
       <div>
         <TopNavbarHeader changeClickStatus={props.changeClickStatus} />
-        <MainContent />
+        <PageMainContent webpageContent={props.webpageContent} />
         <Footer />
       </div>
   )
 }
-export default LandingPage
+export default Page
