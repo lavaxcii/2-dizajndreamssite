@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import './styles/GlobalStyle.css';
+import './index.css'
 import Page from './components/Page';
-
 
 function App() {
   // ovdje mi trebaju komponente koje će tvoriti main page/landing page
@@ -16,8 +15,10 @@ function App() {
   const [clicked, setClicked] = useState(0);
   const changeClickStatus = (pageId) => {
     setClicked(pageId);
+    // document.querySelector('.mainContainer').classList.add('mainContainerTransition');
     console.log(clicked)
   }
+  
 
   const webpagesContent = [ {
     pageId: 0,
@@ -71,8 +72,8 @@ function App() {
   // skratiti kod poprilično, a i ispasti macan :3
   
     return (
-      <div className='mainContainer'>
-        <Page changeClickStatus={changeClickStatus} webpageContent={webpagesContent[clicked]} />
+      <div className='mainContainer bg-gray-600'>
+        <Page keyClick={clicked} changeClickStatus={changeClickStatus} webpageContent={webpagesContent[clicked]} />
       </div>
     )
 }

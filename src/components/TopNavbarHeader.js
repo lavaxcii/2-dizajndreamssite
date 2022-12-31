@@ -1,11 +1,12 @@
 function TopNavbarHeader(props) {
+  const buttonArray = [];
+  for (let i = 0; i < 4; i++) {
+    // ifovi za nazive stranice
+    buttonArray.push(<button key={i} onClick={ () => props.changeClickStatus(i) } >Dreams of page {i}!</button>)
+  }
   return (
-    <div className="topNavbarHeader">
-      <p>Here be topNavbarHeader</p>
-      <button onClick={ () => props.changeClickStatus(0) }>Dreams of landing page!</button>
-      <button onClick={ () => props.changeClickStatus(1) }>Dreams of page 1!</button>
-      <button onClick={ () => props.changeClickStatus(2) }>Dreams of page 2!</button>
-      <button onClick={ () => props.changeClickStatus(3) }>Dreams of page 3!</button>
+    <div className="topNavbarHeader z-10 p-2 flex flex-row fixed top-0 justify-center space-x-4 text-3xl text-white bg-gray-700 opacity-80 border-solid border-4 border-red-400 w-full">
+      { buttonArray }
     </div>
   )
 }
