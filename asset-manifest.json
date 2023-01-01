@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/2-dizajndreamssite/static/css/main.f5a2d68e.css",
-    "main.js": "/2-dizajndreamssite/static/js/main.2a057418.js",
+    "main.css": "/2-dizajndreamssite/static/css/main.1b81e633.css",
+    "main.js": "/2-dizajndreamssite/static/js/main.5c7a26a6.js",
     "index.html": "/2-dizajndreamssite/index.html",
-    "main.f5a2d68e.css.map": "/2-dizajndreamssite/static/css/main.f5a2d68e.css.map",
-    "main.2a057418.js.map": "/2-dizajndreamssite/static/js/main.2a057418.js.map"
+    "main.1b81e633.css.map": "/2-dizajndreamssite/static/css/main.1b81e633.css.map",
+    "main.5c7a26a6.js.map": "/2-dizajndreamssite/static/js/main.5c7a26a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5a2d68e.css",
-    "static/js/main.2a057418.js"
+    "static/css/main.1b81e633.css",
+    "static/js/main.5c7a26a6.js"
   ]
 }
