@@ -3,23 +3,12 @@ import './index.css'
 import Page from './components/Page';
 
 function App() {
-  // ovdje mi trebaju komponente koje će tvoriti main page/landing page
-  // s obzirom da radimo u reactu onda neće efektivno biti hiperlinkove
-  // nego će on na klik na "drugu" stranicu ustvari rerenderirati trenutnu
-  // to je zasada okej, a okej je i za server - jedino "nije" okej u slučaju
-  // kada bi sajt bio ozbiljniji kontender za guglovu tražilicu, u tom slučaju
-  // bi trebalo razmišljati od frameworku frameworka (next.js npr.), tj. o 
-  // vrsti server-side renderinga koji je SEO friendly.
-  // zasad je to nepotrebno.
-
   const [clicked, setClicked] = useState(0);
   const changeClickStatus = (pageId) => {
     setClicked(pageId);
-    // document.querySelector('.mainContainer').classList.add('mainContainerTransition');
     console.log(clicked)
   }
   
-
   const webpagesContent = [ {
     pageId: 0,
     pageName: 'Landing page',
@@ -47,31 +36,6 @@ function App() {
   }
   ]
 
-  // useEffect(() => {
-  //   const changeClickStatus = () => {
-  //     if (clicked === false) {
-  //       setClicked(true);
-  //     } else {
-  //       setClicked(false);
-  //     };
-  //   };
-
-  //   document.addEventListener('click', changeClickStatus);
-
-  //   return () => {
-  //     document.removeEventListener('click', changeClickStatus);
-  //   }
-  // }, [clicked])
-
-
-  // bratkane, ovo nije (do kraja) dobro - naime, kada gledaš strukturu
-  // vidiš da ima zajedničkih elemenata koji se opetovano ponavljaju
-  // a koje možeš vrlo elegentno dalje apstrahirati tako što ćeš željeni
-  // content/data staviti u array/objekt (u slučaju da je server,
-  // JSON vjerovatno) i onda u zavisnosti koji webpage user klikne jednostavno 
-  // ćeš isporučiti u odgovarajuće mjesto u komponentu i tako na kraju dana
-  // skratiti kod poprilično, a i ispasti macan :3
-  
     return (
       <div className='mainContainer bg-yellow-50'>
         <Page keyClick={clicked} changeClickStatus={changeClickStatus} webpageContent={webpagesContent[clicked]} />

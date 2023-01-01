@@ -10,6 +10,7 @@ function TopNavbarHeader(props) {
 
     buttonArray.push(<button key={i} onClick={ () => props.changeClickStatus(i) } className="text-white hover:text-sky-400 p-2 border-solid border border-gray-500 rounded-full" ><a href="#"></a>{buttonName}</button>)
   }
+  
   return (
     <header className="topNavbarHeader z-10 p-2 flex flex-row fixed top-0 justify-center space-x-4 text-lg lg:text-1xl text-white bg-gray-800 opacity-90 w-full">
       <h4 className="text-2xl lg:text-3xl">Design Dreams</h4>
