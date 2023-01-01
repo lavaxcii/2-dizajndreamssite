@@ -73,7 +73,7 @@ function App() {
   // skratiti kod poprilično, a i ispasti macan :3
   
     return (
-      <div className='mainContainer bg-yellow-100'>
+      <div className='mainContainer bg-yellow-50'>
         <Page keyClick={clicked} changeClickStatus={changeClickStatus} webpageContent={webpagesContent[clicked]} />
       </div>
     )
