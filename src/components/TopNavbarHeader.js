@@ -12,7 +12,7 @@ function TopNavbarHeader(props) {
   }
   
   return (
-    <header className="topNavbarHeader z-10 p-2 flex flex-row fixed top-0 justify-center space-x-4 text-lg lg:text-1xl text-white bg-gray-800 opacity-90 w-full">
+    <header className="topNavbarHeader z-10 p-2 flex flex-row fixed top-0 justify-center space-x-4 text-lg lg:text-1xl text-white bg-gray-800 ease-in duration-300 opacity-90 hover:opacity-100 w-full">
       <h4 className="text-2xl lg:text-3xl">Design Dreams</h4>
       { buttonArray }
     </header>
