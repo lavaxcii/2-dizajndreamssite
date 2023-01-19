@@ -6,19 +6,21 @@
   .headerStyle {
     @apply lg:text-4xl p-5 lg:pl-20 text-2xl;
   }
-  a.navLinkStyle {
+  .navLinkStyle {
     @apply text-white hover:text-sky-200 border-solid rounded-full p-2 lg:p-2 text-sm lg:text-lg;
   }
-  a.navLinkStyle.active {
+  .navLinkStyle.active {
     @apply text-sky-300 hover:text-sky-200 border-solid border-2 border-sky-600 rounded-full p-2;
   }
-  a.navLinkStyle.game {
+  .navLinkStyle.game {
     @apply bg-slate-300 text-black hover:text-gray-600 hover:border-sky-400 border-solid border-2 rounded-full p-2;
   }
-  a.navLinkStyle.game.active {
+  .navLinkStyle.game.active {
     @apply bg-slate-300 text-black hover:text-gray-600 border-sky-400 border-solid border-2 rounded-full p-2;
   }
+  
   .paragraphStyle {
     @apply text-lg pl-10 pr-5 p-5 lg:pl-44 lg:pr-28 italic text-black;
   }
+
 } ;

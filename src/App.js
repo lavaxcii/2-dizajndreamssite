@@ -8,7 +8,6 @@ import Page2 from './pages/Page2';
 import Page3a from './pages/page3more/Page3a';
 import Page3b from './pages/page3more/Page3b';
 import Page3Layout from './layouts/Page3Layout';
-import Page3index from './pages/page3more/Page3index';
 
 function App() {
 
