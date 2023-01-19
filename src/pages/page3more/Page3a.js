@@ -6,7 +6,7 @@ function Page3a() {
   const location = useLocation();
   useEffect(() => {
     document.title = 'DesignDreamsSite - Page3 - About game';
-  }, [location.key])
+  })
   
   return (
     <m.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.75, ease: "easeOut" }}>
