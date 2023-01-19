@@ -5,7 +5,13 @@ import { useEffect } from "react";
 function Page3Layout() {
   const location = useLocation();
   useEffect(() => {
-    document.title = 'DesignDreamsSite - Page3';
+    if (location.pathname === '/page3/linktogame') {
+      document.title = 'DesignDreamsSite - Page3 - Link to Game';
+    } else if (location.pathname === '/page3/aboutgame') {
+      document.title = 'DesignDreamsSite - Page3 - About game';
+    } else {
+      document.title = 'DesignDreamsSite - Page3';
+    }
   }, [location.pathname])
 
   return (

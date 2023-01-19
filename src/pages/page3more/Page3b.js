@@ -3,10 +3,10 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 function Page3b() {
-  const location = useLocation();
-  useEffect(() => {
-    document.title = 'DesignDreamsSite - Page3 - Link to game';
-  })
+  // const location = useLocation();
+  // useEffect(() => {
+  //   document.title = 'DesignDreamsSite - Page3 - Link to game';
+  // })
 
   return (
     <m.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.75, ease: "easeOut" }}>
