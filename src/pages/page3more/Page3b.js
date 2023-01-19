@@ -1,5 +1,6 @@
 import { motion as m } from 'framer-motion';
 import { useEffect } from 'react';
+import '../../index.css';
 
 function Page3b() {
   useEffect(() => {

@@ -6,7 +6,7 @@ function Page3Layout() {
   const location = useLocation();
   useEffect(() => {
     document.title = 'DesignDreamsSite - Page3';
-  }, [location.pathname])
+  }, [location.key])
 
   return (
     <m.div className="min-h-screen flex flex-col items-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.75, ease: "easeOut" }}>
